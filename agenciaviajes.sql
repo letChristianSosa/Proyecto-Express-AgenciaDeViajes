@@ -22,13 +22,14 @@
 DROP TABLE IF EXISTS `testimoniales`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
+
 CREATE TABLE `testimoniales` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `nombre` varchar(60) DEFAULT NULL,
   `correo` varchar(60) DEFAULT NULL,
   `mensaje` text,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
